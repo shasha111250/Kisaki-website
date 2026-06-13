@@ -27,8 +27,8 @@ function renderCharacters() {
     .map(
       (c) => `
     <div class="character-card reveal">
-      <div class="character-card-image" style="background: ${c.gradient};">
-        <span class="character-card-avatar">${c.emoji}</span>
+      <div class="character-card-image">
+        <img src="assets/images/kisaki_alpha.png" alt="${c.name}" class="character-card-img" />
       </div>
       <div class="character-card-body">
         <h3>${c.name}</h3>

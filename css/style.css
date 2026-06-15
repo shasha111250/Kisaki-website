@@ -411,7 +411,7 @@ ul { list-style: none; }
   border-color: var(--pink-300);
   box-shadow: var(--shadow-lg);
 }
-.download-card-icon { margin-bottom: 16px; color: var(--pink-500); }
+.download-card-icon { margin-bottom: 16px; display: flex; justify-content: center; align-items: center; }
 .download-card h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
 .download-card-ver { font-size: .85rem; color: var(--gray-500); margin-bottom: 4px; }
 .download-card-desc { font-size: .85rem; color: var(--gray-400); margin-bottom: 24px; }

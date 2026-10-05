@@ -1,0 +1,25 @@
+{
+  "name": "kisaki-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev site --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vitepress build site",
+    "preview": "vitepress preview site --host 127.0.0.1",
+    "check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@phosphor-icons/vue": "^2.2.1",
+    "vue": "^3.5.13"
+  },
+  "overrides": {
+    "vite": "^6.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "~5.6.3",
+    "vitepress": "~1.6.4",
+    "vue-tsc": "^2.2.0"
+  }
+}

@@ -1,3 +1,7 @@
 node_modules/
 .DS_Store
 *.log
+.npm-cache/
+site/.vitepress/cache/
+site/.vitepress/dist/
+artifacts/
